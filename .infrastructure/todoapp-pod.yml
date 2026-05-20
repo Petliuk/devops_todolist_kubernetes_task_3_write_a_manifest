@@ -10,7 +10,7 @@ metadata:
 spec:
   containers:
     - name: todoapp
-      image: petliuk/maxtodoapp:3.0.0
+      image: petliuk/todoapp:3.0.0
 
       ports:
         - containerPort: 8000
