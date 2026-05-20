@@ -17,14 +17,14 @@ spec:
 
       readinessProbe:
         httpGet:
-          path: /readiness/
+          path: /readiness
           port: 8000
         initialDelaySeconds: 10
         periodSeconds: 5
 
       livenessProbe:
         httpGet:
-          path: /liveness/
+          path: /liveness
           port: 8000
         initialDelaySeconds: 15
         periodSeconds: 10
